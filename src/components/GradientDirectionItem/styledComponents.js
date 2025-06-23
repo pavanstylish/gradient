@@ -9,5 +9,5 @@ export const GradientContainer = styled.div`
   padding: 40px;
   min-height: 100vh;
   background: ${({direction, color, color2}) =>
-    `linear-gradient(${direction}, ${color}, ${color2})`};
+    `linear-gradient(to ${direction}, ${color}, ${color2})`};
 `
